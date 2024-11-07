@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.container{
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.loginForm{
+    text-align: center;
+}
+
+.twoButtons{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.twoButtons button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background: blueviolet;
+    transition: background 0.3s;
+    flex: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.forgotPassword{
+    text-align: left;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
